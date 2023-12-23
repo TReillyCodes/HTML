@@ -1,0 +1,108 @@
+<!-- HTML -->
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link href="./resources/css/style.css" rel="stylesheet">
+        <title>Dasmoto's Arts & Crafts</title>
+    </head>
+    <body>
+        <!-- Header and background image -->
+        <p class="header"> Dasmoto's Arts & Crafts </p>
+        <!-- Brushes Section-->
+        <p class="brushes"> Brushes </p>
+            <div class="img">
+                <img src="https://content.codecademy.com/courses/freelance-1/unit-2/hacksaw.jpeg"></img>
+            </div>
+            <div id="label">Hacksaw Brushes</div>
+            <div>
+                Made of the highest quality oak, Hacksaw brushes are known for their weight and ability to hold paint in large amounts. Available in different sizes.
+                <span class="starting">Starting at $3.00 / brush.</span>
+            </div>
+        <!-- Frames Section-->
+        <p class="frames"> Frames </p>
+            <div class="img">
+                <img src="https://content.codecademy.com/courses/freelance-1/unit-2/frames.jpeg"></img>
+            </div>
+            <div id="label">Art Frames (assorted)</div>
+            <div>
+                Assorted frames made of different material, including MDF, birchwood, and PDE. Select frames can be sanded and painted according to your needs. <span class="starting">Starting at $2.00 / frame.</span>
+            </div>
+        <!-- Paint Section-->
+        <p class="paint"> Paint </p>
+        <div class="img">
+            <img src="https://content.codecademy.com/courses/freelance-1/unit-2/finnish.jpeg"></img>
+        </div>
+        <div id="label">Clean Finnish Paint</div>
+        <div>
+            Imported paint from Finland. Over 256 colors available in-store, varying in quantity (1 oz. to 8 oz.). Clean Finnish paint microbinds to canvas, increasing the finish and longevity of any artwork.  <span class="starting">Starting at $5.00 / tube.</span>
+        </div>
+    </body>
+</html>
+
+<!-- (Should've used H1,2,3s but going to stick with what I first did on everything) -->
+
+
+
+
+<!-- CSS -->
+* {
+    font-family: Helvetica;
+
+}
+
+
+.top{
+    width: 100%;
+    height: 125px;
+    z-index: -1;
+}
+.header{
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg");
+    max-width: 100%;
+    height:125px;
+
+
+}
+
+.img {
+    max-height: 200px;
+    max-width: 100%;
+    padding-bottom: 3em;    
+}
+
+.brushes{
+    font-size: 32px;
+    font-weight: bold;
+    color:white;
+    background-color: mediumspringgreen;
+
+}
+
+
+.frames{
+    font-size: 32px;
+    font-weight: bold;
+    color:white;
+    background-color: lightcoral;
+}
+
+.paint{
+    font-size: 32px;
+    font-weight: bold;
+    color:white;
+    background-color: skyblue;
+}
+
+.starting{
+    color: blue;
+}
+
+#label{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 25px 0px 25px 0px;
+}
